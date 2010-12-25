@@ -1,13 +1,12 @@
 $TTL 3h
 @       IN      SOA     ns0.fa0.org. hostmaster.oxynux.org. (
-                                2010122304
+                                2010122501
                                 8H
                                 2H
                                 1W
                                 1D )
 
 @               IN    NS      ns0.fa0.org.
-@               IN    NS      ns1.fa0.org.
 
 $GENERATE 40-43 $ IN  NS      ns0.fa0.org.
 $GENERATE 40-43 $ IN  NS      ns1.fa0.org.
