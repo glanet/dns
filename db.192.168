@@ -7,6 +7,7 @@ $TTL 3h
                                 1D )
 
 @               IN    NS      ns0.fa0.org.
+@               IN    NS      ns0.lv0.in.
 
 $GENERATE 40-43 $ IN  NS      ns0.fa0.org.
 $GENERATE 40-43 $ IN  NS      ns1.fa0.org.
