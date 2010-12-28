@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     ns0.fa0.org. hostmaster.oxynux.org. (
-                                2010122601
+                                2010122805
                                 8H
                                 2H
                                 1W
@@ -14,3 +14,5 @@ $GENERATE 40-43 $ IN  NS      ns1.fa0.org.
 
 $GENERATE 144-147 $ IN NS     ns0.lv0.in.
 $GENERATE 144-147 $ IN NS     ns2.lv0.in.
+
+53.248          IN    PTR     anycast-dns.glanet.42.
