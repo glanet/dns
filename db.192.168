@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     anycast-dns.glanet.fa0.org. hostmaster.glanet.fa0.org. (
-                                2011121500
+                                2011121501
                                 8H
                                 2H
                                 1W
@@ -16,4 +16,7 @@ $GENERATE 144-147 $ IN NS     ns0.lv0.in.
 $GENERATE 144-147 $ IN NS     ns1.lv0.in.
 
 53.248          IN    PTR     anycast-dns.glanet.fa0.org.
+176.248         IN    PTR     lab-1.glanet.fa0.org.
+177.248         IN    PTR     lab-2.glanet.fa0.org.
+178.248         IN    PTR     lab-3.glanet.fa0.org.
 179.248         IN    PTR     glaas.glanet.fa0.org.
