@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     anycast-dns.glanet.org. hostmaster.glanet.org. (
-                                2012030800
+                                2012030801
                                 8H
                                 2H
                                 1W
@@ -9,7 +9,7 @@ $TTL 3h
 @               IN    NS      ns.fa0.org.
 @               IN    NS      ns5.he.net.
 
-@               IN    MX      smtp.fa0.org.
+@               IN    MX  10  smtp.fa0.org.
 @               IN    TXT     "v=spf1 mx ~all"
 
 anycast-dns     IN    A       192.168.248.53
