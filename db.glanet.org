@@ -1,0 +1,21 @@
+$TTL 3h
+@       IN      SOA     anycast-dns.glanet.org. hostmaster.glanet.org. (
+                                2012030800
+                                8H
+                                2H
+                                1W
+                                1D )
+
+@               IN    NS      ns.fa0.org.
+@               IN    NS      ns5.he.net.
+
+@               IN    MX      smtp.fa0.org.
+@               IN    TXT     "v=spf1 mx ~all"
+
+anycast-dns     IN    A       192.168.248.53
+anycast-dns     IN    AAAA    fd00:6b64:f3b0:53::1
+
+lab-1           IN    A       192.168.248.176
+lab-2           IN    A       192.168.248.177
+lab-3           IN    A       192.168.248.178
+glaas           IN    A       192.168.248.179
