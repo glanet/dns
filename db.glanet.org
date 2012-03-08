@@ -13,7 +13,7 @@ $TTL 3h
 @               IN    TXT     "v=spf1 mx ~all"
 
 @               IN    A       87.98.182.144
-@               IN    A       2001:470:c8bc:2000::100
+@               IN    AAAA    2001:470:c8bc:2000::100
 
 anycast-dns     IN    A       192.168.248.53
 anycast-dns     IN    AAAA    fd00:6b64:f3b0:53::1
