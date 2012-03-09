@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     anycast-dns.glanet.org. hostmaster.glanet.org. (
-                                2012030802
+                                2012030900
                                 8H
                                 2H
                                 1W
@@ -14,6 +14,8 @@ $TTL 3h
 
 @               IN    A       87.98.182.144
 @               IN    AAAA    2001:470:c8bc:2000::100
+
+lists           IN    CNAME   glanet.org.
 
 anycast-dns     IN    A       192.168.248.53
 anycast-dns     IN    AAAA    fd00:6b64:f3b0:53::1
