@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     anycast-dns.glanet.org. hostmaster.glanet.org. (
-                                2012030800
+                                2012051600
                                 8H
                                 2H
                                 1W
@@ -9,3 +9,4 @@ $TTL 3h
 @               IN    NS      anycast-dns.glanet.org.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.5.0.0 IN  PTR   anycast-dns.glanet.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.5.1.0 IN  PTR   anycast-rdns.glanet.org.
