@@ -1,17 +1,15 @@
 $TTL 3h
 @       IN      SOA     anycast-dns.glanet.org. hostmaster.glanet.org. (
-                                2012101300
+                                2012121700
                                 8H
                                 2H
                                 1W
                                 1D )
 
 @               IN    NS      ns.fa0.org.
-@               IN    NS      ns.ca.fa0.org.
 @               IN    NS      ns0.lv0.in.
 
 @               IN    MX  10  smtp.fa0.org.
-@               IN    MX  20  smtp.ca.fa0.org.
 @               IN    TXT     "v=spf1 mx ~all"
 
 @               IN    A       94.23.115.220
@@ -27,8 +25,6 @@ oxynux-caribou  IN    A       192.168.250.2
 oxynux-caribou  IN    AAAA    fd00:6b64:f3b0:250::2
 lv0-caribou     IN    A       192.168.250.3
 lv0-caribou     IN    AAAA    fd00:6b64:f3b0:250::3
-natulte-caribou IN    A       192.168.250.4
-natulte-caribou IN    AAAA    fd00:6b64:f3b0:250::4
 
 lists           IN    CNAME   glanet.org.
 lg              IN    CNAME   glanet.org.

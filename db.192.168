@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     anycast-dns.glanet.org. hostmaster.glanet.org. (
-                                2012073100
+                                2012121700
                                 8H
                                 2H
                                 1W
@@ -9,7 +9,6 @@ $TTL 3h
 @               IN    NS      anycast-dns.glanet.org.
 
 $GENERATE 42-43 $ IN  NS      ns.fa0.org.
-$GENERATE 42-43 $ IN  NS      ns0.lv0.in.
 
 $GENERATE 144-147 $ IN NS     ns0.lv0.in.
 $GENERATE 144-147 $ IN NS     ns1.lv0.in.
@@ -25,4 +24,3 @@ $GENERATE 144-147 $ IN NS     ns1.lv0.in.
 1.250           IN    PTR     rs-caribou.glanet.org.
 2.250           IN    PTR     oxynux-caribou.glanet.org.
 3.250           IN    PTR     lv0-caribou.glanet.org.
-4.250           IN    PTR     natulte-caribou.glanet.org.

@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     anycast-dns.glanet.org. hostmaster.glanet.org. (
-                                2012073100
+                                2012121700
                                 8H
                                 2H
                                 1W
@@ -15,4 +15,3 @@ $ORIGIN 0.5.2.0.0.b.3.f.4.6.b.6.0.0.d.f.ip6.arpa.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 IN PTR  rs-caribou.glanet.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 IN PTR  oxynux-caribou.glanet.org.
 3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 IN PTR  lv0-caribou.glanet.org.
-4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 IN PTR  natulte.glanet.org.
