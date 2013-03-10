@@ -13,6 +13,8 @@ $GENERATE 42-43 $ IN  NS      ns.fa0.org.
 $GENERATE 144-147 $ IN NS     ns0.lv0.in.
 $GENERATE 144-147 $ IN NS     ns1.lv0.in.
 
+$GENERATE 160-163 $ IN NS     ks356125.kimsufi.com
+
 53.248          IN    PTR     anycast-dns.glanet.org.
 153.248         IN    PTR     anycast-rdns.glanet.org.
 
