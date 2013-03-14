@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     anycast-dns.glanet.org. hostmaster.glanet.org. (
-                                2013031401
+                                2013031500
                                 8H
                                 2H
                                 1W
@@ -14,6 +14,8 @@ $GENERATE 144-147 $ IN NS     ns0.lv0.in.
 $GENERATE 144-147 $ IN NS     ns1.lv0.in.
 
 $GENERATE 160-163 $ IN NS     ks356125.kimsufi.com.
+
+$GENERATE 172-175 $ IN NS     ns0.gravitons.in.
 
 53.248          IN    PTR     anycast-dns.glanet.org.
 153.248         IN    PTR     anycast-rdns.glanet.org.
