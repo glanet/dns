@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     anycast-dns.glanet.org. hostmaster.glanet.org. (
-                                2013031400
+                                2013031401
                                 8H
                                 2H
                                 1W
@@ -17,8 +17,3 @@ $GENERATE 160-163 $ IN NS     ks356125.kimsufi.com.
 
 53.248          IN    PTR     anycast-dns.glanet.org.
 153.248         IN    PTR     anycast-rdns.glanet.org.
-
-; Caribou GLaNET Exchange Point
-1.250           IN    PTR     rs-caribou.glanet.org.
-2.250           IN    PTR     oxynux-caribou.glanet.org.
-3.250           IN    PTR     lv0-caribou.glanet.org.

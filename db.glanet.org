@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     anycast-dns.glanet.org. hostmaster.glanet.org. (
-                                2012122500
+                                2013031400
                                 8H
                                 2H
                                 1W
@@ -14,17 +14,6 @@ $TTL 3h
 
 @               IN    A       94.23.115.220
 @               IN    AAAA    2001:470:c8bc:2001::1
-
-; Caribou GLaNET Exchange Point
-caribou         IN    A       198.245.50.129
-caribou         IN    AAAA    2607:5300:60:581::1
-caribou-gw      IN    A       198.100.150.102
-rs-caribou      IN    A       192.168.250.1
-rs-caribou      IN    AAAA    fd00:6b64:f3b0:250::1
-oxynux-caribou  IN    A       192.168.250.2
-oxynux-caribou  IN    AAAA    fd00:6b64:f3b0:250::2
-lv0-caribou     IN    A       192.168.250.3
-lv0-caribou     IN    AAAA    fd00:6b64:f3b0:250::3
 
 lists           IN    CNAME   glanet.org.
 lg              IN    CNAME   glanet.org.
