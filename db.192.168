@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     anycast-dns.glanet.org. hostmaster.glanet.org. (
-                                2013031501
+                                2013031601
                                 8H
                                 2H
                                 1W
@@ -11,7 +11,6 @@ $TTL 3h
 $GENERATE 40-43 $ IN  NS      ns.fa0.org.
 
 $GENERATE 144-147 $ IN NS     ns0.lv0.in.
-$GENERATE 144-147 $ IN NS     ns1.lv0.in.
 
 $GENERATE 160-163 $ IN NS     ks356125.kimsufi.com.
 
