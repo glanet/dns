@@ -1,12 +1,13 @@
 $TTL 3h
-@       IN      SOA     anycast-dns.glanet.org. hostmaster.glanet.org. (
-                                2013031700
+@       IN      SOA     ns.fa0.org. hostmaster.glanet.org. (
+                                2013042000
                                 8H
                                 2H
                                 1W
                                 1D )
 
-@               IN    NS      anycast-dns.glanet.org.
+@               IN    NS      ns.fa0.org.
+@               IN    NS      ns2.fa0.org.
 
 $GENERATE 40-43 $ IN  NS      ns.fa0.org.
 $GENERATE 40-43 $ IN  NS      ns2.fa0.org.
