@@ -5,4 +5,4 @@ acl "glanet_core" {
   # ns0.lv0.in (Romain Boissat <rboissat@lv0.in>)
   178.33.108.224;
   2001:470:c8be::1;
-}
+};
