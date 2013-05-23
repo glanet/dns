@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     ns.fa0.org. hostmaster.glanet.org. (
-                                2013052000
+                                2013052300
                                 8H
                                 2H
                                 1W
@@ -17,7 +17,6 @@ $TTL 3h
 @               IN    AAAA    2001:470:c8bc:2001::1
 
 lists           IN    CNAME   glanet.org.
-lg              IN    CNAME   glanet.org.
 
 anycast-dns     IN    A       192.168.248.53
 anycast-dns     IN    AAAA    fd00:6b64:f3b0:53::1
