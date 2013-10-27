@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     ns.fa0.org. hostmaster.glanet.org. (
-                                2013052300
+                                2013102700
                                 8H
                                 2H
                                 1W
@@ -26,3 +26,5 @@ anycast-rdns    IN    AAAA    fd00:6b64:f3b0:153::1
 
 apt             IN    A       176.31.120.214
 apt             IN    AAAA    2001:470:cb96::1
+
+default._domainkey IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDmGY/tzoWgWF8LenmRV+tM+r2wE3TPunU+NcKt7yEr1HdS1C2A7zHNtBBvCEflKEr//GXfC/VjgkZ/v9pAjOXWcJnIoAYyl9+0Pkq+C/ITmDBE0hVCqhPMjxpp7Ztvo31sRNWNSVfuL37Qf9ckceykfSoaoEYqrlHT6wTYQow/DwIDAQAB"
