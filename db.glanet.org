@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     ns.fa0.org. hostmaster.glanet.org. (
-                                2013102700
+                                2013111100
                                 8H
                                 2H
                                 1W
@@ -13,8 +13,8 @@ $TTL 3h
 @               IN    MX  10  smtp.fa0.org.
 @               IN    TXT     "v=spf1 mx ~all"
 
-@               IN    A       94.23.115.220
-@               IN    AAAA    2001:470:c8bc:2001::1
+@               IN    A       212.83.149.187
+@               IN    AAAA    2001:bc8:3283:2000::16
 
 lists           IN    CNAME   glanet.org.
 
