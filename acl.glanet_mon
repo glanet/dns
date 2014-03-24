@@ -1,5 +1,5 @@
 acl "glanet_mon" {
-  # metrosuper.fa0.org
+  # metrosuper.ois.tf
   192.168.42.5;
   2001:bc8:3283:2000::5;
 };
