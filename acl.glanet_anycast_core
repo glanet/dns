@@ -1,10 +1,4 @@
 acl "glanet_core" {
-  # ns2.ois.tf (Benjamin Collet <hostmaster@oxynux.org>)
-  91.121.34.61;
-  2001:470:1f15:872::1;
-  # ns2.ois.tf NEW (Benjamin Collet <hostmaster@oxynux.org>)
-  192.168.42.74;
-  2001:bc8:3283:f000:4::2;
   # ns0.lv0.in (Romain Boissat <rboissat@lv0.in>)
   178.33.108.224;
   2001:470:c8be::1;
