@@ -14,6 +14,8 @@ $GENERATE 40-43 $ IN  NS      ns2.ois.tf.
 
 $GENERATE 144-147 $ IN NS     ns0.lv0.in.
 
+$GENERATE 160-163 $ IN NS     ns1.br0.fr.
+
 $GENERATE 172-175 $ IN NS     ns0.gravitons.in.
 
 53.248          IN    PTR     anycast-dns.glanet.org.
