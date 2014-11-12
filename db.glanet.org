@@ -8,7 +8,7 @@ $TTL 3h
 
 @               IN    NS      ns1.ois.tf.
 @               IN    NS      ns2.ois.tf.
-@               IN    NS      ns0.lv0.in.
+;@               IN    NS      ns0.lv0.in.
 
 @               IN    MX  10  smtp.ois.tf.
 @               IN    TXT     "v=spf1 mx ~all"
