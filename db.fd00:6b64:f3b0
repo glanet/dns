@@ -1,13 +1,12 @@
 $TTL 3h
 @       IN      SOA     ns1.ois.tf. hostmaster.glanet.org. (
-                                2014032400
+                                2014111700
                                 8H
                                 2H
                                 1W
                                 1D )
 
 @               IN    NS      ns1.ois.tf.
-@               IN    NS      ns2.ois.tf.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.5.0.0 IN  PTR   anycast-dns.glanet.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.5.1.0 IN  PTR   anycast-rdns.glanet.org.

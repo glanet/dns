@@ -1,16 +1,14 @@
 $TTL 3h
 @       IN      SOA     ns1.ois.tf. hostmaster.glanet.org. (
-                                2014032400
+                                2014111700
                                 8H
                                 2H
                                 1W
                                 1D )
 
 @               IN    NS      ns1.ois.tf.
-@               IN    NS      ns2.ois.tf.
 
 $GENERATE 40-43 $ IN  NS      ns1.ois.tf.
-$GENERATE 40-43 $ IN  NS      ns2.ois.tf.
 
 $GENERATE 144-147 $ IN NS     ns0.lv0.in.
 
