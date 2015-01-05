@@ -1,5 +1,5 @@
 acl "glanet_core" {
   # ns0.lv0.in on gan01 (Romain Boissat <rboissat@lv0.in>)
-  192.168.144.19; 185.26.127.41;
-  2001:470:c8be:2f::4;
+  185.26.127.41;
+  2001:4b98:dc2:45:216:3eff:fe16:f6b3;
 };
