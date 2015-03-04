@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     ns1.ois.tf. hostmaster.glanet.org. (
-                                2014111700
+                                2015030400
                                 8H
                                 2H
                                 1W
@@ -8,13 +8,25 @@ $TTL 3h
 
 @               IN    NS      ns1.ois.tf.
 
-$GENERATE 40-43 $ IN  NS      ns1.ois.tf.
+40              IN    NS      ns1.ois.tf.
+41              IN    NS      ns1.ois.tf.
+42              IN    NS      ns1.ois.tf.
+43              IN    NS      ns1.ois.tf.
 
-$GENERATE 144-147 $ IN NS     ns0.lv0.in.
+144             IN    NS      ns0.lv0.in.
+145             IN    NS      ns0.lv0.in.
+146             IN    NS      ns0.lv0.in.
+147             IN    NS      ns0.lv0.in.
 
-$GENERATE 160-163 $ IN NS     ns1.br0.fr.
+160             IN    NS      ns1.br0.fr.
+161             IN    NS      ns1.br0.fr.
+162             IN    NS      ns1.br0.fr.
+163             IN    NS      ns1.br0.fr.
 
-$GENERATE 172-175 $ IN NS     ns0.gravitons.in.
+172             IN    NS      ns0.gravitons.in.
+173             IN    NS      ns0.gravitons.in.
+174             IN    NS      ns0.gravitons.in.
+175             IN    NS      ns0.gravitons.in.
 
 53.248          IN    PTR     anycast-dns.glanet.org.
 153.248         IN    PTR     anycast-rdns.glanet.org.
