@@ -1,6 +1,12 @@
-as64544_lv0_glanet_anycast_lv0_in {
+as64544_lv0_ga {
   address 192.168.144.246;
 }
-as64544_lv0_glanet_anycast_lv0_in6 {
+as64544_lv0_ga6 {
   address [2001:470:c8be:1f::6];
+}
+as64544_vss_ga {
+  address 192.168.144.39;
+}
+as64544_vss_ga6 {
+  address [2001:470:c8be:e::7];
 }
