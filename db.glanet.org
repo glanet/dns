@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     ns1.ois.tf. hostmaster.glanet.org. (
-                                2015011200
+                                2015082400
                                 8H
                                 2H
                                 1W
@@ -24,6 +24,6 @@ anycast-rdns    IN    A       192.168.248.153
 anycast-rdns    IN    AAAA    fd00:6b64:f3b0:153::1
 
 apt             IN    A       212.83.167.3
-apt             IN    AAAA    2001:bc8:333d:30::10
+apt             IN    AAAA    2001:bc8:333d:30::30
 
 default._domainkey IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDmGY/tzoWgWF8LenmRV+tM+r2wE3TPunU+NcKt7yEr1HdS1C2A7zHNtBBvCEflKEr//GXfC/VjgkZ/v9pAjOXWcJnIoAYyl9+0Pkq+C/ITmDBE0hVCqhPMjxpp7Ztvo31sRNWNSVfuL37Qf9ckceykfSoaoEYqrlHT6wTYQow/DwIDAQAB"
