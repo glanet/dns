@@ -1,5 +1,0 @@
-acl "glanet_mon" {
-  # metrosuper.ois.tf
-  192.168.42.5;
-  2001:bc8:3283:2000::5;
-};

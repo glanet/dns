@@ -1,8 +1,0 @@
-acl "glanet_core" {
-  # vss-glanet-anycast.lv0.in (Romain Boissat <rboissat@lv0.in>)
-  192.168.144.39;
-  2001:470:c8be:e::7;
-  # lv0-glanet-anycast.lv0.in (Romain Boissat <rboissat@lv0.in>)
-  192.168.144.246;
-  2001:470:c8be:1f::6;
-};
