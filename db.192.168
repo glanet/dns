@@ -1,17 +1,22 @@
 $TTL 3h
 @       IN      SOA     ns1.ois.tf. hostmaster.glanet.org. (
-                                2015030400
+                                2015101100
                                 8H
                                 2H
                                 1W
                                 1D )
 
 @               IN    NS      ns1.ois.tf.
+@               IN    NS      ns2.ois.tf.
 
 40              IN    NS      ns1.ois.tf.
+40              IN    NS      ns2.ois.tf.
 41              IN    NS      ns1.ois.tf.
+41              IN    NS      ns2.ois.tf.
 42              IN    NS      ns1.ois.tf.
+42              IN    NS      ns2.ois.tf.
 43              IN    NS      ns1.ois.tf.
+43              IN    NS      ns2.ois.tf.
 
 144             IN    NS      ns0.lv0.in.
 145             IN    NS      ns0.lv0.in.
