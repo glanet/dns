@@ -1,15 +1,15 @@
 $TTL 3h
-@       IN      SOA     ns1.ois.tf. hostmaster.glanet.org. (
-                                2015101100
+@       IN      SOA     ns1.alt.tf. hostmaster.glanet.org. (
+                                2016021000
                                 8H
                                 2H
                                 1W
                                 1D )
 
-@               IN    NS      ns1.ois.tf.
-@               IN    NS      ns2.ois.tf.
+@               IN    NS      ns1.alt.tf.
+@               IN    NS      ns2.alt.tf.
 
-@               IN    MX  10  smtp.ois.tf.
+@               IN    MX  10  smtp.alt.tf.
 @               IN    TXT     "v=spf1 mx ~all"
 
 @               IN    A       212.83.149.187
