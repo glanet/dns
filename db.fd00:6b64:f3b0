@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     ns1.alt.tf. hostmaster.glanet.org. (
-                                2016040400
+                                2016041900
                                 8H
                                 2H
                                 1W
@@ -8,5 +8,5 @@ $TTL 3h
 
 @               IN    NS      ns1.alt.tf.
 
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.5.0.0 IN  PTR   anycast-dns.glanet.org.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.5.1.0 IN  PTR   anycast-rdns.glanet.org.
+3.5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 IN  PTR   anycast-dns.glanet.org.
+3.5.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 IN  PTR   anycast-rdns.glanet.org.
