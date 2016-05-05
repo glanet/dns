@@ -21,10 +21,10 @@ $TTL 3h
 lists           IN    CNAME   glanet.org.
 
 anycast-dns     IN    A       192.168.248.53
-anycast-dns     IN    AAAA    fd00:6b64:f3b0:53::1
+anycast-dns     IN    AAAA    fd00:6b64:f3b0::53
 
 anycast-rdns    IN    A       192.168.248.153
-anycast-rdns    IN    AAAA    fd00:6b64:f3b0:153::1
+anycast-rdns    IN    AAAA    fd00:6b64:f3b0::153
 
 apt             IN    A       212.83.167.3
 apt             IN    AAAA    2001:bc8:333d:30::30
