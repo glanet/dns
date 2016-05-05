@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     ns1.alt.tf. hostmaster.glanet.org. (
-                                2016040400
+                                2016050500
                                 8H
                                 2H
                                 1W
@@ -16,7 +16,7 @@ $TTL 3h
 @               IN    TXT     "v=spf1 mx ~all"
 
 @               IN    A       212.83.149.187
-@               IN    AAAA    2001:bc8:3283:2000::16
+@               IN    AAAA    2a06:e881:1101:2000::16
 
 lists           IN    CNAME   glanet.org.
 
