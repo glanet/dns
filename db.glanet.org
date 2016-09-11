@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     ns1.alt.tf. hostmaster.glanet.org. (
-                                2016050500
+                                2016091100
                                 8H
                                 2H
                                 1W
@@ -13,10 +13,12 @@ $TTL 3h
 @               IN    NS      ns5.he.net.
 
 @               IN    MX  10  smtp.alt.tf.
-@               IN    TXT     "v=spf1 mx ~all"
+@               IN    TXT     "v=spf1 redirect=_spf.alt.tf"
 
 @               IN    A       212.83.149.187
 @               IN    AAAA    2a06:e881:1101:2000::16
+
+_dmarc          IN    TXT     "v=DMARC1; p=none; rua=mailto:dmarc@alt.tf; ruf=mailto:dmarc-forensic@alt.tf"
 
 lists           IN    CNAME   glanet.org.
 
