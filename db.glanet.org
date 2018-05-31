@@ -1,12 +1,13 @@
 $TTL 3h
 @       IN      SOA     ns1.alt.tf. hostmaster.glanet.org. (
-                                2017073000
+                                2018053100
                                 8H
                                 2H
                                 1W
                                 1D )
 
 @               IN    NS      ns1.alt.tf.
+@               IN    NS      ns2.alt.tf.
 @               IN    NS      ns0.lv0.in.
 
 @               IN    MX  10  smtp.alt.tf.
