@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     ns1.alt.tf. hostmaster.glanet.org. (
-                                2018053100
+                                2018071200
                                 8H
                                 2H
                                 1W
@@ -13,7 +13,7 @@ $TTL 3h
 @               IN    MX  10  smtp.alt.tf.
 @               IN    TXT     "v=spf1 redirect=_spf.alt.tf"
 
-@               IN    A       212.83.149.187
+@               IN    A       185.4.124.219
 @               IN    AAAA    2a06:e881:1101:2000::16
 
 _dmarc          IN    TXT     "v=DMARC1; p=none; rua=mailto:aggregate@dmarc.alt.tf,mailto:u5n0nwes@ag.dmarcian.com; ruf=mailto:forensic@dmarc.alt.tf,mailto:u5n0nwes@fr.dmarcian.com"
