@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     ns1.alt.tf. hostmaster.glanet.org. (
-                                2016040400
+                                2019083000
                                 8H
                                 2H
                                 1W
@@ -12,6 +12,11 @@ $TTL 3h
 41              IN    NS      ns1.alt.tf.
 42              IN    NS      ns1.alt.tf.
 43              IN    NS      ns1.alt.tf.
+
+48              IN    NS      ns1.salnet.wf.
+49              IN    NS      ns1.salnet.wf.
+50              IN    NS      ns1.salnet.wf.
+51              IN    NS      ns1.salnet.wf.
 
 144             IN    NS      ns0.lv0.in.
 145             IN    NS      ns0.lv0.in.
