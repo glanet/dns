@@ -1,6 +1,6 @@
 $TTL 3h
 @       IN      SOA     ns1.alt.tf. hostmaster.glanet.org. (
-                                2019083000
+                                2022072800
                                 8H
                                 2H
                                 1W
@@ -34,4 +34,3 @@ $TTL 3h
 175             IN    NS      ns0.gravitons.in.
 
 53.248          IN    PTR     anycast-dns.glanet.org.
-153.248         IN    PTR     anycast-rdns.glanet.org.
